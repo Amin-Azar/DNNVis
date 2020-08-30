@@ -1,0 +1,21 @@
+#col-1 {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+  background-color: #FCF3F1;
+  z-index: 1010101010
+}
+
+#col-2 {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+  background-color: #F1F2FC;
+  z-index: 1010101010
+}
+
+span{
+  margin-top: 0px;
+}

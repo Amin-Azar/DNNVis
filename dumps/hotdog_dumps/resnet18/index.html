@@ -1,6 +1,92 @@
 <!DOCTYPE html> <html> <head>   <link rel=stylesheet href=styles.css> </head> <body>
 <div id=col-1>
 <p>
+<span style='color:green'><pre>=> creating model 'resnet18'</pre></span>
+<span style='color:green'><pre>ResNet(</pre></span>
+<span style='color:red'><pre>  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)</pre></span>
+<span style='color:green'><pre>  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>  (relu): ReLU(inplace=True)</pre></span>
+<span style='color:green'><pre>  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)</pre></span>
+<span style='color:red'><pre>  (layer1): Sequential(</pre></span>
+<span style='color:green'><pre>    (0): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>    (1): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>  )</pre></span>
+<span style='color:red'><pre>  (layer2): Sequential(</pre></span>
+<span style='color:green'><pre>    (0): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (downsample): Sequential(</pre></span>
+<span style='color:green'><pre>        (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)</pre></span>
+<span style='color:green'><pre>        (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      )</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>    (1): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>  )</pre></span>
+<span style='color:red'><pre>  (layer3): Sequential(</pre></span>
+<span style='color:green'><pre>    (0): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (downsample): Sequential(</pre></span>
+<span style='color:green'><pre>        (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)</pre></span>
+<span style='color:green'><pre>        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      )</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>    (1): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>  )</pre></span>
+<span style='color:red'><pre>  (layer4): Sequential(</pre></span>
+<span style='color:green'><pre>    (0): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (downsample): Sequential(</pre></span>
+<span style='color:green'><pre>        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)</pre></span>
+<span style='color:green'><pre>        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      )</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>    (1): BasicBlock(</pre></span>
+<span style='color:red'><pre>      (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>      (relu): ReLU(inplace=True)</pre></span>
+<span style='color:red'><pre>      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)</pre></span>
+<span style='color:green'><pre>      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</pre></span>
+<span style='color:green'><pre>    )</pre></span>
+<span style='color:green'><pre>  )</pre></span>
+<span style='color:green'><pre>  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))</pre></span>
+<span style='color:green'><pre>  (fc): Linear(in_features=512, out_features=1000, bias=True)</pre></span>
+<span style='color:green'><pre>)</pre></span>
+<span style='color:green'><pre>11689512</pre></span>
 </p>
 </div>
 <div id=col-2>
