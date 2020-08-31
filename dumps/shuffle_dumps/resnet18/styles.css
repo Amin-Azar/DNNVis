@@ -9,7 +9,16 @@
 
 #col-2 {
   position: relative;
-  width: 50%;
+  width: 25%;
+  float: left;
+  height: 100%;
+  background-color: #F1F2FC;
+  z-index: 1010101010
+}
+
+#col-2 {
+  position: relative;
+  width: 25%;
   float: left;
   height: 100%;
   background-color: #F1F2FC;
