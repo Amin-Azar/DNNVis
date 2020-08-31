@@ -1,0 +1,22 @@
+Name, sparsity, total, mu, sigma
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-conv1_Conv2d_out_acts.npy ,	 0.0,	12845056,	-1.0186093e-05,	1.5243275
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-fc_Linear_out_acts.npy ,	 0.0,	16000,	2.611351e-05,	2.5377865
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer1.0.conv1_Conv2d_out_acts.npy ,	 0.0,	3211264,	-0.91292554,	1.1438752
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer1.0.conv2_Conv2d_out_acts.npy ,	 3.1140385841836735e-05,	3211264,	-0.06436882,	0.4016375
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer1.1.conv1_Conv2d_out_acts.npy ,	 0.0,	3211264,	-0.62380916,	1.0768676
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer1.1.conv2_Conv2d_out_acts.npy ,	 0.0,	3211264,	-0.049012322,	0.31800583
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer2.0.conv1_Conv2d_out_acts.npy ,	 0.0,	1605632,	-0.2974891,	0.92257243
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer2.0.conv2_Conv2d_out_acts.npy ,	 0.0,	1605632,	-0.20084186,	0.36309803
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer2.0.downsample.0_Conv2d_out_acts.npy ,	 0.0,	1605632,	-0.066575535,	0.41179237
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer2.1.conv1_Conv2d_out_acts.npy ,	 0.0,	1605632,	-0.2958753,	0.57666534
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer2.1.conv2_Conv2d_out_acts.npy ,	 0.0,	1605632,	-0.06022582,	0.2226166
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer3.0.conv1_Conv2d_out_acts.npy ,	 0.0,	802816,	-0.32263753,	0.5966988
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer3.0.conv2_Conv2d_out_acts.npy ,	 0.0,	802816,	-0.12552889,	0.3534628
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer3.0.downsample.0_Conv2d_out_acts.npy ,	 0.0,	802816,	-0.047283318,	0.14521052
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer3.1.conv1_Conv2d_out_acts.npy ,	 0.0,	802816,	-0.38959235,	0.5075709
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer3.1.conv2_Conv2d_out_acts.npy ,	 0.0,	802816,	-0.08371473,	0.17115787
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer4.0.conv1_Conv2d_out_acts.npy ,	 0.0,	401408,	-0.40610304,	0.43011117
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer4.0.conv2_Conv2d_out_acts.npy ,	 0.0,	401408,	-0.1443243,	0.16218309
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer4.0.downsample.0_Conv2d_out_acts.npy ,	 0.0,	401408,	-0.04490357,	0.16665855
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer4.1.conv1_Conv2d_out_acts.npy ,	 0.0,	401408,	-0.5829326,	0.3809428
+./resnet18_dp-True_wt-0_ep-0_itt-0_layer-layer4.1.conv2_Conv2d_out_acts.npy ,	 0.0,	401408,	-0.031180032,	0.11795395

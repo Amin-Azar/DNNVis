@@ -17,7 +17,7 @@ function end_index {
 
 function create_arch {
   main_html=$1 # $index.html
-  input=$2 "resnet18.arch"
+  input=$2 #"resnet18.arch"
   col_id=$3
   ## write architecture
   echo "<div id="col-$col_id">" >> $main_html
