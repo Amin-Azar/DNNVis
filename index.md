@@ -16,6 +16,6 @@
 
 ### shuffle
 [//]: ![](resources/shuffle.png)
-[shuffle here](dumps/shuffle_dumps/resnet18/index.html)
+[dumps here](dumps/shuffle_dumps/resnet18/index.html)
 
 <!--- <meta http-equiv="Refresh" content="0; url='dumps/bird_dumps/resnet18/index.html'" /> --->
